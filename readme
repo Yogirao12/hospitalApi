@@ -1,19 +1,20 @@
 # It is an Ecommerce API
 
-## Use this link to fetch data -: https://eccommerceapi.herokuapp.com/
+# hosted link of my api is -: https://myhospitalapi.herokuapp.com/
 
-### to fetch data use : POST method -:
+## Use this link to register doctor data -: http://localhost:8000/api/v1/doctor/register   (POST method)
 
-## https://eccommerceapi.herokuapp.com/api/v1/doctors/register
 
-### to create data use : POST method -:
+### to login as doctor use : POST method -: http://localhost:8000/api/v1/doctor/login
 
-## https://eccommerceapi.herokuapp.com/api/v1/products/create/
+##
+### to register as patient use : POST method -: http://localhost:8000/api/v1/patient/register
 
-### to delete data use : DELETE method -:
+## 
 
-## https://eccommerceapi.herokuapp.com/api/v1/products/:id/
+### to create report  use : GET method -: http://localhost:8000/api/v1/patient/:id/create_report
 
-### to update data use : POST method -:
+## 
 
-## https://eccommerceapi.herokuapp.com/api/v1/products/:id/update_quantity/?number=<nummber>
+### to get all reports of particular patient use : GET method -: http://localhost:8000/api/v1/patient/:id/all_reports
+
